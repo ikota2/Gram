@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  GrammaTestOne
+//  Gram
 //
 //  Created by ivan caiman on 29.09.2024.
 //

@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8C7C653D2CA99CAE00197CA9 /* GrammaTestOne */ = {
+		8C7C653D2CA99CAE00197CA9 /* Gram */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GrammaTestOne;
+			path = Gram;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		8C7C65322CA99CAE00197CA9 = {
 			isa = PBXGroup;
 			children = (
-				8C7C653D2CA99CAE00197CA9 /* GrammaTestOne */,
+				8C7C653D2CA99CAE00197CA9 /* Gram */,
 				8C7C653C2CA99CAE00197CA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8C7C653D2CA99CAE00197CA9 /* GrammaTestOne */,
+				8C7C653D2CA99CAE00197CA9 /* Gram */,
 			);
 			name = GrammaTestOne;
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C7C65362CA99CAE00197CA9 /* Build configuration list for PBXProject "GrammaTestOne" */;
+			buildConfigurationList = 8C7C65362CA99CAE00197CA9 /* Build configuration list for PBXProject "Gram" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -251,7 +251,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GrammaTestOne/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Gram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GrammaTestOne/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Gram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C7C65362CA99CAE00197CA9 /* Build configuration list for PBXProject "GrammaTestOne" */ = {
+		8C7C65362CA99CAE00197CA9 /* Build configuration list for PBXProject "Gram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C7C65472CA99CB100197CA9 /* Debug */,
