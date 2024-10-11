@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8C7C653B2CA99CAE00197CA9 /* GrammaTestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammaTestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7C653B2CA99CAE00197CA9 /* Gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		8C7C653C2CA99CAE00197CA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C7C653B2CA99CAE00197CA9 /* GrammaTestOne.app */,
+				8C7C653B2CA99CAE00197CA9 /* Gram.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C7C653A2CA99CAE00197CA9 /* GrammaTestOne */ = {
+		8C7C653A2CA99CAE00197CA9 /* Gram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C7C65492CA99CB100197CA9 /* Build configuration list for PBXNativeTarget "GrammaTestOne" */;
+			buildConfigurationList = 8C7C65492CA99CB100197CA9 /* Build configuration list for PBXNativeTarget "Gram" */;
 			buildPhases = (
 				8C7C65372CA99CAE00197CA9 /* Sources */,
 				8C7C65382CA99CAE00197CA9 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				8C7C653D2CA99CAE00197CA9 /* Gram */,
 			);
-			name = GrammaTestOne;
+			name = Gram;
 			packageProductDependencies = (
 			);
-			productName = GrammaTestOne;
-			productReference = 8C7C653B2CA99CAE00197CA9 /* GrammaTestOne.app */;
+			productName = Gram;
+			productReference = 8C7C653B2CA99CAE00197CA9 /* Gram.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C7C653A2CA99CAE00197CA9 /* GrammaTestOne */,
+				8C7C653A2CA99CAE00197CA9 /* Gram */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +264,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gteam.GrammaTestOne;
+				PRODUCT_BUNDLE_IDENTIFIER = gteam.Gram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gteam.GrammaTestOne;
+				PRODUCT_BUNDLE_IDENTIFIER = gteam.Gram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C7C65492CA99CB100197CA9 /* Build configuration list for PBXNativeTarget "GrammaTestOne" */ = {
+		8C7C65492CA99CB100197CA9 /* Build configuration list for PBXNativeTarget "Gram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C7C654A2CA99CB100197CA9 /* Debug */,
