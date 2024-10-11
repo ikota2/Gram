@@ -18,20 +18,22 @@ struct LanguageView: View {
                 Text("Choose your language")
                 Spacer()
                 
-                HStack(spacing: 20) {
+                HStack() {
+                    Spacer()
                     Button(action: {
                         selectedLanguage = "English"
                         path.append(selectedLanguage!)
                     }) {
-                        CircleFlagView(flag: "🇬🇧")
+                        FlagView(flag: "englishFlag")
                     }
-                    
+                    Spacer()
                     Button(action: {
                         selectedLanguage = "Spanish"
                         path.append(selectedLanguage!)
                     }) {
-                        CircleFlagView(flag: "🇪🇸")
+                        FlagView(flag: "spanishFlag")
                     }
+                    Spacer()
                 }
                 Spacer()
             }
@@ -44,16 +46,15 @@ struct LanguageView: View {
     }
 }
 
-struct CircleFlagView: View {
+struct FlagView: View {
     var flag: String
     
     var body: some View {
-        Text(flag)
-            .font(.system(size: 50))
-            .frame(width: 100, height: 100)
-            .background(Circle().fill(.white))
-            .overlay(Circle().stroke(Color.black, lineWidth: 1))
-    }
+            Image(flag)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 70, height: 70)
+        }
 }
 
 struct LanguageView_Previews: PreviewProvider {
